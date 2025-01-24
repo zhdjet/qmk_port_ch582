@@ -25,14 +25,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT      AM78
 
 #define MATRIX_ROWS 6
-#define MATRIX_COLS 15
+#define MATRIX_COLS 18
 #define MATRIX_ROW_PINS            \
     {                              \
-        B9, B8, B17, B16, B18, B19 \
+        B6, B5, B3, B2, B1, B0 \
     }
 #define MATRIX_COL_PINS                                                \
     {                                                                  \
-        A6, A0, A1, A2, A3, A15, A14, A13, A12, A7, B7, B6, B5, B4, B3 \
+        A4, A5, A6, A0, A1, A2, A3, A15, A14, A13, B12, A11, A9, A7, B15, B14, B19, B18 \
     }
 #define DYNAMIC_KEYMAP_LAYER_COUNT 10
 
@@ -44,7 +44,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define EARLY_INIT_PERFORM_BOOTLOADER_JUMP FALSE
 
-#define WS2812_EN_PIN   A5
+#define WS2812_EN_PIN   A10
 #define WS2812_EN_LEVEL 1
 
 #define BATTERY_MEASURE_PIN A4
