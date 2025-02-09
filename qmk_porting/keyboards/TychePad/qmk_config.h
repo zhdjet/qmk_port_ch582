@@ -28,11 +28,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 4
 #define MATRIX_ROW_PINS        \
     {                          \
-        A3, A15, A14, A13, A12 \
+        A13, A12, A11, A15, A14 \
     }
 #define MATRIX_COL_PINS \
     {                   \
-        A6, A0, A1, A2  \
+        A6, A0, A4, A5  \
     }
 // #define DYNAMIC_KEYMAP_LAYER_COUNT 10
 
@@ -58,7 +58,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define EARLY_INIT_PERFORM_BOOTLOADER_JUMP FALSE
 
-#define WS2812_EN_PIN   A5
+#define WS2812_EN_PIN   A10
 #define WS2812_EN_LEVEL 1
 
 #define BATTERY_MEASURE_PIN A4
